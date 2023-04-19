@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 50px 0 50px;
+}
+
+.header_left img{
+    width: 205.85px;
+    height: 56px;
+}
+
+.header_right i {
+   font-size: 35px;
+}
+
+.header_right i:hover{
+    cursor: pointer;
+}
+
+/* @media only screen and (max-width: 780px) {
+    .header_right i {
+        display: block;
+    }
+  } */

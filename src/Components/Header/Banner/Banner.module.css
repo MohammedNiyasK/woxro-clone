@@ -1,0 +1,38 @@
+.banner_heading{
+    font-size: 5rem;
+    color: var(--white);
+    text-align: center;
+    padding-top: 50px;
+}
+.banner{
+    background-color:aliceblue;
+    background-image: url('../../../assets/simon-wilkes-S297j2CsdlM-unsplash.jpg');
+    background-size: cover;
+}
+
+.banner_desc{
+    color: var(--white);
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3.5rem;
+    margin-inline: 5rem;
+    letter-spacing: 0.06rem;
+    padding-bottom: 50px;
+}
+
+ @media only screen and (max-width: 780px) {
+    .banner_heading{
+        font-size: 2.5rem;
+        color: var(--white);
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .banner_desc{
+        color: var(--white);
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 3.5rem; 
+        padding-bottom: 30px;
+    }
+  } 

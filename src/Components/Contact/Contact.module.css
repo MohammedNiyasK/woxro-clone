@@ -1,0 +1,14 @@
+.container{
+    margin-top: 50px;
+    height: 300px;
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: bold;
+}

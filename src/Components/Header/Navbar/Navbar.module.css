@@ -1,0 +1,28 @@
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid var(--white);
+    display: block;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--black);
+   
+}
+
+.navbar_text {
+    list-style-type: none;
+    color: var(--white);
+    padding:15px 0 15px 0;
+}
+
+.navbar_text:hover{
+    cursor: pointer;
+}
+
+
+ @media only screen and (max-width: 780px) {
+    .navbar {
+        display: none;
+    }
+  } 

@@ -1,0 +1,11 @@
+.cardList{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+
+@media only screen and (max-width: 780px) {
+    .cardList{
+       display: flex;
+       flex-direction: column;
+    }
+  } 

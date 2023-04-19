@@ -1,0 +1,25 @@
+.card{
+    border: thin var(--grey);
+    border-radius: 5px;
+    width: auto;
+    height: 15rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    transition: 0.3s;
+    display: flex;
+    justify-content: flex-start;
+   flex-direction: column;
+}
+
+.card:hover{
+cursor: pointer;
+transform: scale(1.01);
+}
+
+.card img{
+    height: 3rem;
+    width: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    padding: 0.5rem;
+}

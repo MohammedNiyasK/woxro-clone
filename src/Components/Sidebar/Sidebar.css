@@ -1,0 +1,52 @@
+.navbar__menu {
+    position: absolute;
+    height: 100vh;
+    width: 250px;
+    background-color:var(--black);
+    top: 0;
+    right: 0;
+    z-index: 200;
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+     overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.navbar__hide {
+    display: none;
+}
+
+
+
+.sidebar__icon {
+    color: #b9b9b9;
+    margin: 0px 20px 0px 10px;
+}
+
+
+.sidebar__text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: var(--lightgrey);
+    transition: all 0.5s ease-out;
+    
+}
+
+.sidebar__text:hover{
+    color: var(--white);
+    cursor: pointer;
+ 
+}
+
+.close_icon{
+    font-size: 1rem;
+    color: var(--lightgrey);
+    transition: all 0.5s ease-out;
+}
+
+.close_icon:hover{
+    color: var(--white);
+}
