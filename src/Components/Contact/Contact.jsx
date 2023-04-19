@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className={classes.container}>
         <h2 className={classes.title}>We offer all kinds of IT services that <br/> ensure your success</h2>
-        <div>
+        <div className={classes.button}>
             <Button content="Contact us" />
             <Button content="Let's Talk" />
         </div>
